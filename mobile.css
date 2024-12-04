@@ -1,0 +1,153 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100vw;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #003ecb;
+    font-family:'Gill Sans', sans-serif;
+    width: 100vw;
+    overflow-x: hidden; 
+}
+
+.header{
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100px;
+    width:100vw;
+}
+
+.logo{
+    font-size: 32px;
+    color: lightgray;
+    padding-left: 50px;
+}
+
+.menu-icon{
+    font-size: 32px;
+    cursor: pointer;
+    padding-right: 50px;
+}
+
+.main-content{
+  /*  display: flex;*/
+    justify-content: center;
+    text-align: center; 
+    width: 100vw; 
+}
+
+.feature{
+    color: #7bb0ff;
+   margin-top: 50px;
+    font-weight: normal;
+   margin-bottom: 10px;
+   letter-spacing: 4.5px;
+}
+
+.main-header{
+    color: #fffffb;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 45px;
+    font-weight: 740;  
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.side{
+    display:flex;
+    flex-direction: column;
+    text-align: center; 
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.side-group{
+    background-color: #114dd6;
+    width: 65%;
+    margin-top: 0;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 30px;
+    padding-bottom: 35px;
+}
+
+.side-group-right{
+    background-color: #114dd6;
+    width: 65%;
+    margin-top: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 30px;
+    padding-bottom: 35px;
+}
+
+.side p{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #7bb0ff;
+    padding-right: 45px;
+     padding-left: 45px;
+     word-spacing: 3px;
+     line-height: 1.4;
+ }
+ 
+
+.side h3{
+    color: #ffba00;
+}
+
+a.more {
+    color: #ffba00;
+    text-decoration: underline;
+    text-underline-offset: 8px; 
+    text-decoration-color: #ffba00; 
+}
+
+.container {
+    flex: 1 0 auto; 
+}
+
+.footer {
+
+    background: #333333;
+    min-height: 150px;
+    margin-top: 90px;
+    align-items: center; 
+    justify-content: center; 
+    text-align: center;
+    display: flex;
+    color: #fffffb;
+    margin-bottom: 0;
+}
+
+.footer p{
+    padding: 20px 100px 20px;
+}
+
+.laptop{
+    width: 300px;
+    order:-1;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+
+.Strategy{
+    width: 60px;
+    height: 60px;
+}
+
+.Concept{
+    width: 65px;
+    height: 60px; 
+}
